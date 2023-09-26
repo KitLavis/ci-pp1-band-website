@@ -18,7 +18,9 @@ header {
 
 #header-name {
     text-transform: uppercase;
-    color: white
+    letter-spacing: 4px;
+    color: white;
+    margin: 0;
 }
 
 main {
