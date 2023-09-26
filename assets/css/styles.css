@@ -12,8 +12,11 @@ body {
     padding: 0;
 }
 
+/* header */
+
 header {
-    background-color: rgb(88, 82, 82);
+    background-color: rgba(88, 82, 82, 0);
+    position: fixed;
 }
 
 #header-name {
@@ -24,12 +27,21 @@ header {
     padding-left: 5px;
 }
 
+/* main content */
+
 main {
-    background-color: blue;
+    /* temporary background image */
+    background: url('../images/bg-img1-wide.webp') no-repeat center/cover;
     /* sticky footer */
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+}
+
+/* hero image */
+
+#hero {
+    /* background: url('../images/bg-img1.webp') no-repeat center/cover; */
 }
 
 /* footer */
