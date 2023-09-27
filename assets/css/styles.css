@@ -2,14 +2,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+NP+Hmong:wght@400;500;600;700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&display=swap');
 
 /* general */
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'Noto Serif NP Hmong', serif;
+    color: whitesmoke;
 }
 
 body {
     /* remove automatic white border/margin */
     margin: 0;
     padding: 0;
+    /* standard font */
+    font-family: 'Open Sans', sans-serif;
+    color: whitesmoke;
+    text-transform: uppercase;
+}
+
+body a {
+    text-decoration: none;
+    color: whitesmoke;
 }
 
 /* header */
@@ -17,21 +29,57 @@ body {
 header {
     background-color: rgba(88, 82, 82, 0);
     position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+    padding: 0 1rem;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header a {
+    text-decoration: none;
 }
 
 #header-name {
     text-transform: uppercase;
     font-weight: 400;
-    letter-spacing: 6px;
-    color: white;
-    margin: 0;
-    padding-left: 5px;
+    letter-spacing: 4px;
 }
 
 /* nav menu */
 
 #menu {
     list-style-type: none;
+}
+
+/* navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    text-align: right;
+    width: 100%;
+    left: 0;
+    display: none;
+    top: 100%;
+}
+
+nav ul {
+    padding-right: 1rem;
+    margin-top: 0;
+}
+
+/* nav toggle */
+#nav-toggle:checked~nav {
+   display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
 }
 
 /* main content */
