@@ -97,6 +97,29 @@ main {
     min-height: 100vh;
 }
 
+#reviews {
+    width: 100%;
+
+}
+
+.review {
+    padding-top: 10px;
+    border-bottom: solid 1px #3a3a3a;
+    text-align: center;
+    color: #3a3a3a;
+    margin: 0 1rem;
+    text-transform: capitalize;
+}
+.fa-star {
+    font-size: 150%;
+}
+
+.reviewer {
+    font-size: 80%;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
 /* footer */
 
 footer {
