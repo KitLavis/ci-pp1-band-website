@@ -85,18 +85,16 @@ nav ul {
 /* main content */
 
 main {
-    /* temporary background image */
-    background: url('../images/bg-img1-wide.webp') no-repeat center/cover;
+   /* temporary background image */
+   /* background: url('../images/bg-img1-wide.webp') no-repeat center/cover; */
     /* sticky footer */
     min-height: 100vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
 }
-
-/* hero image */
-
-#hero {
-    /* background: url('../images/bg-img1.webp') no-repeat center/cover; */
+#bg-img-div {
+    background: url('../images/bg-img1-wide.webp') no-repeat center/cover;
+    min-height: 100vh;
 }
 
 /* footer */
@@ -164,5 +162,16 @@ footer {
     #logo-div {
     width: 100%;
     text-align: center;
+    }
+}
+
+/* media query: laptops and larger (992px and above) */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid whitesmoke;
+    }
+
+    #bg-img-div {
+        background-attachment: fixed;
     }
 }
