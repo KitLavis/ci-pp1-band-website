@@ -99,6 +99,7 @@ main {
 
 #advert-section {
     background-color: #3a3a3a;
+    z-index: 99;
 }
 
 #advert {
