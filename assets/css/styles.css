@@ -97,6 +97,51 @@ main {
     min-height: 100vh;
 }
 
+#advert-section {
+    background-color: #3a3a3a;
+}
+
+#advert {
+    width: 100%;
+    box-sizing: border-box;
+        background-color: #3a3a3a;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 16px;
+}
+
+#advert p {
+    font-size: 80%;
+    font-family: 'Noto Serif NP Hmong',
+        serif;
+}
+
+#advet-text-div {
+    width: 50vw;
+}
+
+#album-cover {
+    width: 35vw;
+    max-width: 500px
+    
+}
+
+#purchase {
+    color: #828282;
+    text-align: center;
+}
+
+#purchase a {
+    text-decoration: none;
+    color: #828282;
+}
+
+#purchase a:hover {
+    text-decoration: underline;
+}
+
+
 #review-section {
     width: 100%;
     background-color: #3a3a3a;
@@ -113,6 +158,12 @@ main {
     font-family: 'Noto Serif NP Hmong',
             serif;
 }
+
+#review1 {
+    border-top: solid 0.5px whitesmoke;
+    padding-top: 16px;
+}
+
 .fa-star {
     font-size: 120%;
     margin-top: 16;
