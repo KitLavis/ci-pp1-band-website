@@ -93,37 +93,46 @@ main {
     flex-direction: column; 
 }
 #bg-img-div {
-    background: url('../images/bg-img1-wide.webp') no-repeat center/cover;
+    background: url('../images/bg-img1-wide-shrunk.webp') no-repeat center/cover;
     min-height: 100vh;
 }
 
-#reviews {
+#review-section {
     width: 100%;
+    background-color: #3a3a3a;
+    padding-top: 16px;
 
 }
 
 .review {
-    padding-top: 10px;
-    border-bottom: solid 1px #3a3a3a;
     text-align: center;
-    color: #3a3a3a;
+    color: whitesmoke;
     margin: 0 1rem;
-    text-transform: capitalize;
+    text-transform: none;
+    font-family: 'Noto Serif NP Hmong',
+            serif;
 }
 .fa-star {
-    font-size: 150%;
+    font-size: 120%;
+    margin-top: 16;
 }
 
 .reviewer {
-    font-size: 80%;
+    color: #828282;
     font-weight: bold;
-    padding-bottom: 10px;
+    padding-bottom: 16px;
+    border-bottom: solid 0.5px whitesmoke;
+    margin-top: 0;
+}
+
+.review-text {
+    margin: 0 0;
 }
 
 /* footer */
 
 footer {
-    background-color: whitesmoke;
+    background-color: #3a3a3a;
     margin-top: auto;
 }
 
