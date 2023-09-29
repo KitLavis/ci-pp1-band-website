@@ -98,44 +98,50 @@ main {
 }
 
 #advert-section {
-    background-color: #3a3a3a;
+    background: url('../images/bg-img1-blur.webp') no-repeat center/cover;
     z-index: 99;
 }
 
 #advert {
     width: 100%;
     box-sizing: border-box;
-        background-color: #3a3a3a;
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 0 16px;
 }
 
 #advert p {
     font-size: 80%;
     font-family: 'Noto Serif NP Hmong',
         serif;
+    text-transform: none;
 }
 
-#advet-text-div {
-    width: 50vw;
+#advert-text-div {
+    width: 50%;
+    padding-right: 16px;
+    text-align: center;
 }
 
+#album-cover-div {
+    padding: 1em 0;
+}
 #album-cover {
     width: 35vw;
     max-width: 500px
-    
 }
 
 #purchase {
-    color: #828282;
+    color: whitesmoke;
+    font-size: 80%;
     text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 #purchase a {
     text-decoration: none;
-    color: #828282;
+    font-weight: bold;
 }
 
 #purchase a:hover {
@@ -146,7 +152,6 @@ main {
 #review-section {
     width: 100%;
     background-color: #3a3a3a;
-    padding-top: 16px;
     z-index: 99;
 
 }
