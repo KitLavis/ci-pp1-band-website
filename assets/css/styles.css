@@ -97,6 +97,8 @@ main {
     min-height: 100vh;
 }
 
+/* new album advert */
+
 #advert-section {
     background: url('../images/bg-img1-blur.webp') no-repeat center/cover;
     z-index: 99;
@@ -105,9 +107,6 @@ main {
 #advert {
     width: 100%;
     box-sizing: border-box;
-        display: flex;
-        justify-content: center;
-        align-items: center;
 }
 
 #advert p {
@@ -115,19 +114,21 @@ main {
     font-family: 'Noto Serif NP Hmong',
         serif;
     text-transform: none;
+    margin: 1em;
 }
 
 #advert-text-div {
-    width: 50%;
-    padding-right: 16px;
+    width: 100%;
     text-align: center;
 }
 
 #album-cover-div {
     padding: 1em 0;
+    display: flex;
+    justify-content: center;
 }
 #album-cover {
-    width: 35vw;
+    width: 80vw;
     max-width: 500px
 }
 
