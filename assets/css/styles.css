@@ -183,6 +183,10 @@ main {
     margin: 0 0;
 }
 
+#final-review {
+    border-bottom: none;
+}
+
 /* footer */
 
 footer {
