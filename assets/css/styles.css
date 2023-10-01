@@ -155,7 +155,6 @@ main {
     width: 100%;
     background-color: #3a3a3a;
     z-index: 99;
-
 }
 
 .review {
@@ -165,11 +164,8 @@ main {
     text-transform: none;
     font-family: 'Noto Serif NP Hmong',
             serif;
-}
-
-#review1 {
-    border-top: solid 0.5px whitesmoke;
-    padding-top: 16px;
+    padding: 1em 0;
+    border-bottom: solid 0.5px whitesmoke;
 }
 
 .fa-star {
@@ -180,9 +176,7 @@ main {
 .reviewer {
     color: #828282;
     font-weight: bold;
-    padding-bottom: 16px;
-    border-bottom: solid 0.5px whitesmoke;
-    margin-top: 0;
+    margin: 0;
 }
 
 .review-text {
@@ -276,6 +270,29 @@ footer {
         #album-cover {
             width: 80%;
         }
+
+        #review-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .review-column {
+            width: 50vw;
+        }
+
+        .review {
+            padding: 1em 0;
+            border-bottom: none;
+        }
+
+
+        .center-review {
+            border-top: solid 0.5px whitesmoke;
+            border-bottom: solid 0.5px whitesmoke;
+            padding: 1em 0;
+        }
+
 }
 
 /* media query: laptops and larger (992px and above) */
