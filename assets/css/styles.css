@@ -127,6 +127,7 @@ main {
     display: flex;
     justify-content: center;
 }
+
 #album-cover {
     width: 80vw;
     max-width: 500px
@@ -254,6 +255,27 @@ footer {
     width: 100%;
     text-align: center;
     }
+
+    #advert {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+        #advert-text-div {
+            width: 50vw;
+            text-align: center;
+        }
+    
+        #album-cover-div {
+            padding: 1em 0;
+            width: 50vw;
+            align-content: center;
+        }
+
+        #album-cover {
+            width: 80%;
+        }
 }
 
 /* media query: laptops and larger (992px and above) */
