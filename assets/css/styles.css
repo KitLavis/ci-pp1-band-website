@@ -107,6 +107,7 @@ main {
 #advert {
     width: 100%;
     box-sizing: border-box;
+    padding: 1em 0;
 }
 
 #advert p {
@@ -122,8 +123,12 @@ main {
     text-align: center;
 }
 
+#advert-text-div h3 {
+    margin-top: 0;
+}
+
 #album-cover-div {
-    padding: 1em 0;
+    padding-top: 1em;
     display: flex;
     justify-content: center;
 }
@@ -308,4 +313,19 @@ footer {
     #bg-img-div {
         background-attachment: fixed;
     }
+
+        #advert-section {
+            background: none;
+        }
+    
+        #review-section {
+            background: none;
+        }
+
+    #larger-screen-bg {
+        background: url('../images/bg-img1-blur.webp') no-repeat center/cover;
+        width: 100vw;
+        z-index: 99;
+    }
+
 }
