@@ -342,6 +342,7 @@ footer {
         height: 80%;
         display: flex;
         justify-content: center;
+        padding-bottom: 1em;
      }
 
 
