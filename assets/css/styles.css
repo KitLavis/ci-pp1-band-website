@@ -228,7 +228,7 @@ main {
     backdrop-filter: blur(2px);
     border-radius: 25px;
     padding: 16px 1em;
-    margin: 1em;
+    margin: 1em 1em 0 1em;
 }
 
 #about-div p {
@@ -238,6 +238,16 @@ main {
 #top-margin {
     background: none;
     height: 110px;
+} 
+
+
+#solo-career {
+    margin: 1em 1em 0 1em;
+}
+
+#bottom-padding {
+    background: none;
+    height: 1em;
 }
 
 /* footer */
