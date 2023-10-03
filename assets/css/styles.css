@@ -220,6 +220,7 @@ main {
 #about-div {
     width: 100%;
     text-align: center;
+    margin-top: auto;
 }
 
 #about-div div {
@@ -232,6 +233,11 @@ main {
 
 #about-div p {
     text-transform: none;
+}
+
+#top-margin {
+    background: none;
+    height: 110px;
 }
 
 /* footer */
