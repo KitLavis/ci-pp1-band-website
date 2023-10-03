@@ -360,6 +360,19 @@ footer {
             padding: 1em 0;
         }
 
+        #about-div div {
+            width: 66vw;
+        }
+
+        #beginnings, #solo-career {
+            text-align: left;
+        }
+
+        #about-div > #life-in-a-band {
+            text-align: right;
+            margin-left: auto;
+        }
+
 }
 
 /* media query: laptops and larger (992px and above) */
