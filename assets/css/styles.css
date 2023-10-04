@@ -62,6 +62,8 @@ nav {
     left: 0;
     display: none;
     top: 100%;
+    font-weight: lighter;
+    letter-spacing: 2px;
 }
 
 nav ul {
@@ -96,10 +98,39 @@ main {
     min-height: 100vh;
 }
 
+#listen {
+    display: flex;
+    align-items: baseline;
+    padding-top: 90px;
+    padding-left: 16px;
+}
+
 .listen-icons {
     list-style-type: none;
     z-index: 100;
-    background-color: black;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-left: 0;
+    padding-right: 5px;
+    border-right: 0.5px solid whitesmoke;
+    text-align: right;
+}
+
+.trad-folk-guitar {
+    padding-left: 5px;
+    font-size: 80%;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+
+#folk {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+#trad-folk-guitar {
+    align-self: baseline;
+    padding-top: 16px;
 }
 
 /* new album advert */
