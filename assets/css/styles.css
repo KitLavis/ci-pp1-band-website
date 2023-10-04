@@ -353,6 +353,10 @@ footer {
     text-align: center;
     }
 
+    #listen {
+        padding-left: 100px;
+    }
+
     #advert {
         display: flex;
         justify-content: center;
