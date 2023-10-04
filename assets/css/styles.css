@@ -55,6 +55,7 @@ header a {
 }
 
 /* navbar styles with dropdown toggle */
+/* taken from code institute's Love Running walkthrough project */
 nav {
     position: absolute;
     text-align: right;
@@ -244,7 +245,6 @@ main {
  padding: 0 1rem;
  margin: 0;
  box-sizing: border-box;
-
 }
 
 #bg-img-div-about {
