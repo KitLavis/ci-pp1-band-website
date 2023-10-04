@@ -11,7 +11,7 @@ This project is a site created to promote the new album by fictional English fol
   - On mobile devices the page names are hidden behind a clickable 'three dots icon' to allow for slightly more breathing space on the smaller screen, whilst on a tablet sized device or larger, the page names are placed in the centre of the viewport, beneath the title of the web page.
 
 - Landing page image
-  - The image chosen for the landing page is the cover of the new album that is being promoted, overlaid with links to a number of streaming platforms and a brief description of the artist for potential new fans.
+  - The image chosen for the landing page is the cover of the new album that is being promoted in order to instantly familarise the user with said image. This is overlaid with links to the most popular streaming platforms and a brief description of the artist for potential new fans.
 
 - Album Advert
   - The advert section allows the user to purchase the album, drawing their attention to the new album with emphasised text and repeat use of the album cover, which should now be a familiar image.
@@ -27,9 +27,11 @@ This project is a site created to promote the new album by fictional English fol
 
 ### Features for Future Development
 
+Due to project requirements and time restrictions, a number of features were not included.
 - Dedicated Media Page
-
+  - A page souly for media will be added in future. This will include embedded audio and video, allowing the user to access the artist's music without having to open an external link.
 - Dedicated Events Page
+  - Similar to the media page, in future a page will be added with upcoming tour dates and links to purchase tickets for the events.
 
 ## Testing
 
@@ -45,8 +47,8 @@ This project is a site created to promote the new album by fictional English fol
 
 ### Media
 
-All photographs used were taken from stock image provider [pexels.com](https://www.pexels.com)
-The favicon was created using [favicon.io](https://www.favicon.io)
+- All photographs used were taken from stock image provider [pexels.com](https://www.pexels.com)
+- The favicon was created using [favicon.io](https://www.favicon.io)
 
 ### Code
 
