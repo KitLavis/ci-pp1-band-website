@@ -41,6 +41,13 @@ Due to project requirements and time restrictions, a number of features were not
 
 ## Deployment
 
+The project was deployed via GitHub Pages. To do this, the following process was followed:
+- While in the GitHub repository, click the settings icon in the nav bar.
+- Select the Main Branch from the source section drop-down menu and click save.
+- Once succesfully deployed, the deployment can be accessed from the Deployment Section in the right-hand column of the code page of the GitHub repository.
+
+Live deployment link - [deployment](https://kitlavis.github.io/ci-pp1-band-website/)
+
 ## Credits
 
 ### Content
