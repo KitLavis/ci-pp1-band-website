@@ -1,118 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- meta tags for search enginges -->
+        <meta name="description" content="Kit Lavis. Folk musician from Bristol, England. Based in Berlin">
+        <meta name="keywords" content="muisc, folk, folk music, guitar, acoustic guitar, Berlin, Bristol, trad, trad folk">
 
-    <!-- meta tags for search enginges -->
-    <meta name="description" content="Kit Lavis. Folk musician from Bristol, England. Based in Berlin">
-    <meta name="keywords" content="muisc, folk, folk music, guitar, acoustic guitar, Berlin, Bristol, trad, trad folk">
+        <title>Kit Lavis</title>
 
-    <title>Kit Lavis</title>
+        <!-- favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon-kl-green/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-kl-green/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-kl-green/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
 
-    <!-- favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon-kl-green/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-kl-green/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-kl-green/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-
-    <!-- link to CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
-</head>
-
-<body>
-
-    <!-- Header -->
-    <header>
-        <div id="logo-div">
-            <a href="index.html">
-                <h1 id="header-name">Kit Lavis</h1>
-            </a>
-        </div>
-        <input type="checkbox" id="nav-toggle" name="nav-toggle" />
-        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-ellipsis-vertical"
-                style="color: #ffffff;"></i></label>
-        <nav>
-            <ul id="menu">
+        <!-- link to CSS -->
+        <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <div id="logo-div">
+                <a href="index.html">
+                    <h1 id="header-name">Kit Lavis</h1>
+                </a>
+            </div>
+            <input type="checkbox" id="nav-toggle" name="nav-toggle" />
+            <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-ellipsis-vertical"
+                    style="color: #ffffff;"></i></label>
+            <nav>
+                <ul id="menu">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="contact.html" class="active">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!-- main content -->
+        <main id="main-content">
+            <section id="bg-img">
+                <div id="bg-img-div">
+                    <section id="contact">
+                        <form method="POST" action="Phttps://formdump.codeinstitute.net" id="contact-form">
+                            <h2>Get in touch</h2>
+                            <label for="first_name">First Name</label>
+                            <input type="text" name="first_name" id="first_name" class="text-input" required>
+                            <br>
+                            <label for="last_name">Last Name</label>
+                            <input type="text" name="last_name" id="last_name" class="text-input" required>
+                            <br>
+                            <label for="organisation">Organisation (optional)</label>
+                            <input type="text" name="organisation" id="organisation" class="text-input">
+                            <br>
+                            <label for="email_address">Email Address</label>
+                            <input type="email" name="email_address" id="email_address" class="text-input" required>
+                            <br>
+                            <div class="radio-buttons">
+                                <div>
+                                    <label for="bookings">Bookings</label>
+                                    <input type="radio" name="type-of-enquiry" id="bookings" value="bookings" required checked>
+                                </div>
+                                <div>
+                                    <label for="other">Other</label>
+                                    <input type="radio" name="type-of-enquiry" id="other" value="other" required checked>
+                                </div>
+                            </div>
+                            <br>
+                            <textarea id="message" class="text-input" name="message" rows="4" cols="20" placeholder="Your message here..."></textarea>
+                            <br>
+                            <button type="submit" class="send-button">Send</button>
+                        </form>
+                    </section>
+                </div>
+            </section>
+        </main>
+        <!-- Footer -->
+        <footer>
+            <ul id="socials">
                 <li>
-                    <a href="index.html">Home</a>
+                    <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="visit my Facebook page (opens in a new tab)">
+                        <i class="fa-brands fa-facebook-f" style="color: whitesmoke;"></i>
+                    </a>
                 </li>
-                <br>
                 <li>
-                    <a href="about.html">About</a>
+                    <a href="https://www.youtube.com" target="_blank" rel="noopener" aria-label="visit my Youtube channel (opens in a new tab)">
+                        <i class="fa-brands fa-youtube" style="color: whitesmoke;"></i>
+                    </a>
                 </li>
-                <br>
                 <li>
-                    <a href="contact.html" class="active">Contact</a>
+                    <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="visit my Insta page (opens in a new tab)">
+                        <i class="fa-brands fa-instagram" style="color: whitesmoke;"></i>
+                    </a>
                 </li>
             </ul>
-        </nav>
-    </header>
-
-    <!-- main content -->
-    <main id="main-content">
-        <section id="bg-img">
-            <div id="bg-img-div">
-                <section id="contact">
-                    <form method="POST" action="Phttps://formdump.codeinstitute.net" id="contact-form">
-                        <h2>Get in touch</h2>
-                        <label for="first_name">First Name</label>
-                        <input type="text" name="first_name" id="first_name" class="text-input" required>
-                        <br>
-                        <label for="last_name">Last Name</label>
-                        <input type="text" name="last_name" id="last_name" class="text-input" required>
-                        <br>
-                        <label for="organisation">Organisation (optional)</label>
-                        <input type="text" name="organisation" id="organisation" class="text-input">
-                        <br>
-                        <label for="email_address">Email Address</label>
-                        <input type="email" name="email_address" id="email_address" class="text-input" required>
-                        <br>
-                        <div class="radio-buttons">
-                            <div>
-                                <label for="bookings">Bookings</label>
-                                <input type="radio" name="type-of-enquiry" id="bookings" value="bookings" required checked>
-                            </div>
-                            <div>
-                                <label for="other">Other</label>
-                                <input type="radio" name="type-of-enquiry" id="other" value="other" required checked>
-                            </div>
-                        </div>
-                        <br>
-                        <textarea id="message" class="text-input" name="message" rows="4" cols="20" placeholder="Your message here..."></textarea>
-                        <br>
-                        <button type="submit" class="send-button">Send</button>
-                    </form>
-                </section>
-            </div>
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer>
-        <ul id="socials">
-            <li>
-                <a href="https://www.facebook.com" target="_blank" rel="noopener"
-                    aria-label="visit my Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook-f"
-                        style="color: whitesmoke;"></i></a>
-            </li>
-            <li>
-                <a href="https://www.youtube.com" target="_blank" rel="noopener"
-                    aria-label="visit my Youtube channel (opens in a new tab)"><i class="fa-brands fa-youtube"
-                        style="color: whitesmoke;"></i></a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com" target="_blank" rel="noopener"
-                    aria-label="visit my Insta page (opens in a new tab)"><i class="fa-brands fa-instagram"
-                        style="color: whitesmoke;"></i></a>
-            </li>
-        </ul>
-    </footer>
-
-    <!-- font awesome icons script -->
-    <script src="https://kit.fontawesome.com/cd67891a35.js" crossorigin="anonymous"></script>
-</body>
-
+        </footer>
+        <!-- font awesome icons script -->
+        <script src="https://kit.fontawesome.com/cd67891a35.js" crossorigin="anonymous"></script>
+    </body>
 </html>
