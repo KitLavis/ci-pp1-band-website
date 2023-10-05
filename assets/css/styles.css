@@ -49,13 +49,11 @@ header a {
 }
 
 /* nav menu */
-
 #menu {
     list-style-type: none;
 }
 
-/* navbar styles with dropdown toggle */
-/* taken from code institute's Love Running walkthrough project */
+/* navbar styles with dropdown toggle taken from code institute's Love Running walkthrough project */
 nav {
     position: absolute;
     text-align: right;
@@ -99,6 +97,7 @@ main {
     min-height: 100vh;
 }
 
+/* streaming icons */
 #listen {
     display: flex;
     padding-top: 90px;
@@ -133,6 +132,7 @@ main {
     padding-top: 15px;
 }
 
+/* ticket icon */
 #tickets {
     display: flex;
     justify-content: right;
@@ -152,8 +152,8 @@ main {
     border-left: 0.5px solid whitesmoke;
     padding-left: 5px;
 }
-/* new album advert */
 
+/* new album advert */
 #advert-section {
     background: url('../images/bg-img1-blur.webp') no-repeat center/cover;
     position: relative;
@@ -195,6 +195,7 @@ main {
     max-width: 500px
 }
 
+/* link to purchase album */
 #purchase {
     color: whitesmoke;
     font-size: 80%;
@@ -212,7 +213,7 @@ main {
     text-decoration: underline;
 }
 
-
+/* review section */
 #review-section {
     width: 100%;
     background-color: #3a3a3a;
@@ -293,7 +294,6 @@ main {
     background: none;
     height: 110px;
 } 
-
 
 #solo-career {
     margin: 1em 1em 0 1em;
@@ -384,11 +384,23 @@ footer {
     header {
         display: block;
     }
+
+    #header-name {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    #logo-div {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* nav bar */
     nav {
         display: block;
         position: relative;
         width: 100%;
-        /* padding-right: 1rem; */
     }
 
     nav ul {
@@ -415,17 +427,7 @@ footer {
         display: none;
     }
 
-    #header-name {
-        font-size: 280%;
-        line-height: 75px;
-        margin: 0 0.5rem;
-    }
-
-    #logo-div {
-    width: 100%;
-    text-align: center;
-    }
-
+    /* landing page icons */
     #listen {
         padding-left: 100px;
         padding-top: 110px;
@@ -435,102 +437,109 @@ footer {
         padding-right: 100px;
     }
 
+    /* new album advert promo */
     #advert {
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
-        #advert-text-div {
-            width: 50vw;
-            text-align: center;
-        }
-    
-        #album-cover-div {
-            padding: 1em 0;
-            width: 50vw;
-            align-content: center;
-        }
+    #advert-text-div {
+        width: 50vw;
+        text-align: center;
+    }
 
-        #album-cover {
-            width: 80%;
-        }
+    #album-cover-div {
+        padding: 1em 0;
+        width: 50vw;
+        align-content: center;
+    }
 
-        #review-section {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+    #album-cover {
+        width: 80%;
+    }
 
-        .review-column {
-            width: 50vw;
-        }
+    /* reviews */
+    #review-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-        .review {
-            padding: 1em 0;
-            border-bottom: none;
-        }
+    .review-column {
+        width: 50vw;
+    }
 
+    .review {
+        padding: 1em 0;
+        border-bottom: none;
+    }
 
-        .center-review {
-            border-top: solid 0.5px whitesmoke;
-            border-bottom: solid 0.5px whitesmoke;
-            padding: 1em 0;
-        }
+    .center-review {
+        border-top: solid 0.5px whitesmoke;
+        border-bottom: solid 0.5px whitesmoke;
+        padding: 1em 0;
+    }
 
-        #about-div div {
-            width: 66vw;
-        }
+    /* about page */
+    #about-div div {
+        width: 66vw;
+    }
 
-        #beginnings, #solo-career {
-            text-align: left;
-        }
+    #beginnings, #solo-career {
+        text-align: left;
+    }
 
-        #about-div > #life-in-a-band {
-            text-align: right;
-            margin-left: auto;
-        }
-    
-        #contact {
-            padding-top: 110px;
-        }
+    #about-div > #life-in-a-band {
+        text-align: right;
+        margin-left: auto;
+    }
 
+    /* contact page */
+    #contact {
+        padding-top: 110px;
+    }
 }
 
 /* media query: laptops and larger (992px and above) */
 @media screen and (min-width: 992px) {
+    
+    /* nav */
     #menu a:hover {
         border-bottom: 1px solid whitesmoke;
     }
 
+    /* landing page background */
     #bg-img-div {
         background-attachment: fixed;
     }
 
-        #advert-section {
-            background: none;
-        }
-    
-        #review-section {
-            background: none;
-            display: flex;
-            justify-content: space-evenly;
-        }
+    /* wrap reviews either side of the album cover */
+    #advert-section {
+        background: none;
+    }
 
-    #larger-screen-bg {
-        background: url('../images/bg-img1-blur.webp') no-repeat center/cover;
-        width: 100vw;
-        z-index: 99;
+    #review-section {
+        background: none;
+        display: flex;
+        justify-content: space-evenly;
     }
 
     #album-cover-div {
         display: none;
     }
-    
+
     #album-cover-review {
         height: 80%;
         display: flex;
         justify-content: center;
         padding-bottom: 1em;
-     }
+    }
+
+    /* adds blurred background image to new combined advert/reviews section */
+    #larger-screen-bg {
+        background: url('../images/bg-img1-blur.webp') no-repeat center/cover;
+        width: 100vw;
+        z-index: 99;
+    }
 }
