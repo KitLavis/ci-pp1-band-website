@@ -141,7 +141,6 @@ main {
     display: flex;
     justify-content: right;
     padding-right: 16px;
-    padding-left: auto;
     align-items: center;
 }
 
@@ -241,7 +240,7 @@ main {
 
 .fa-star {
     font-size: 120%;
-    margin-top: 16;
+    margin-top: 16px;
 }
 
 .reviewer {
@@ -429,8 +428,8 @@ footer {
     
     #menu>li:last-child {
         border: none;
-        padding-right: none;
     }
+    
     .nav-toggle-label {
         display: none;
     }
