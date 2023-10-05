@@ -37,6 +37,9 @@ Due to project requirements and time restrictions, a number of features were not
 
 ### Validator Testing
 
+- The HTML was validated using the W3C validator. No errors and no warnings were reported.
+- The CSS was validated using the W3C CSS validator. No errors were found and one warning regarding imported style sheets was reported. A link to the result can be found [here](http://jigsaw.w3.org/css-validator/validator$link)
+
 ### Manual Debugging
 
 ## Deployment
@@ -59,3 +62,5 @@ Live deployment link - [deployment](https://kitlavis.github.io/ci-pp1-band-websi
 
 ### Code
 
+- The code for the clickable three dot icon on the navigation bar was take from the Code Institute's Love Running walkthrough project.
+- The contact form is based off of the 'sign up form' also from the Code Institute's Love Running walkthrough project.
