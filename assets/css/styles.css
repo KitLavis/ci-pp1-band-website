@@ -101,7 +101,6 @@ main {
 
 #listen {
     display: flex;
-    align-items: baseline;
     padding-top: 90px;
     padding-left: 16px;
 }
@@ -115,25 +114,24 @@ main {
     padding-right: 5px;
     border-right: 0.5px solid whitesmoke;
     text-align: right;
+    font-size: 200%;
 }
 
 .trad-folk-guitar {
     padding-left: 5px;
-    font-size: 80%;
+    font-size: 100%;
     font-weight: lighter;
     letter-spacing: 2px;
 }
 
 #folk {
-    padding-top: 4px;
-    padding-bottom: 4px;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 
-#trad-folk-guitar {
-    align-self: baseline;
-    padding-top: 16px;
+#trad {
+    padding-top: 15px;
 }
-
 /* new album advert */
 
 #advert-section {
@@ -410,6 +408,7 @@ footer {
 
     #listen {
         padding-left: 100px;
+        padding-top: 110px;
     }
 
     #advert {
