@@ -92,6 +92,10 @@ main {
     flex-direction: column; 
 }
 
+#bg-img>h2 {
+    display: none;
+}
+
 #bg-img-div {
     background: url('../images/bg-img1-wide-shrunk.webp') no-repeat center/cover;
     min-height: 100vh;
@@ -190,7 +194,7 @@ main {
     justify-content: center;
 }
 
-#album-cover {
+.album-cover {
     width: 80vw;
     max-width: 500px
 }
@@ -218,6 +222,10 @@ main {
     width: 100%;
     background-color: #3a3a3a;
     position: relative;
+}
+
+#review-section>h2 {
+    display: none;
 }
 
 .review {
@@ -455,7 +463,7 @@ footer {
         align-content: center;
     }
 
-    #album-cover {
+    .album-cover {
         width: 80%;
     }
 
