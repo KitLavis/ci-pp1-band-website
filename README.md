@@ -33,8 +33,12 @@ This project is a site created to promote the new album by fictional English fol
 - About Page
   - The about page consists of small blocks of text providing information about the artist to allow the user to relate to the artist further, hopefully solidifying the view of exisiting fans and helping potential new fans gain an idea of who the artist is.
 
+![Screenshot of about page](assets/images/about-page-readme.webp)
+
 - Contact Form
   - The contact form allows for a message to be sent to the artist. The main use of this feature is for promoters/booking agents to contact regarding availabilities, however it may also be used by fans to send a message directly to the artist.
+
+![Screenshot of contact form](assets/images/contact-form-readme.webp)
 
 ### Features for Future Development
 
