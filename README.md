@@ -2,6 +2,8 @@
 
 This project is a site created to promote the new album by fictional English folk guitarist Kit Lavis. The website is targeted mainly towards exisiting fans, however the imagery and design has been tailored in order to intice fans of the genre, who may not already be familarised with his music.
 
+![Am I Responsive Mockup](assets/images/kit-lavis-am-i-responsive-readme.webp)
+
 ## Features
 
 ### Existing Features

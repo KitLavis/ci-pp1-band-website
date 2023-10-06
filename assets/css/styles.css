@@ -264,18 +264,18 @@ main {
 /* about page */
 
 #about-header {
- background-color: rgba(88, 82, 82, 0);
- justify-content: space-between;
- align-items: baseline;
- width: 100%;
- padding: 0 1rem;
- margin: 0;
- box-sizing: border-box;
+    background-color: rgba(88, 82, 82, 0);
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+    padding: 0 1rem;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 #bg-img-div-about {
     background: url('../images/bg-img1-wide-shrunk.webp') no-repeat center/cover;
-        min-height: 100vh;
+    min-height: 100vh;
     background-attachment: fixed;
 }
 
