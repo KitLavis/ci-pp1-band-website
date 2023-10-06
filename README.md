@@ -63,7 +63,6 @@ Due to project requirements and time restrictions, a number of features were not
 
 ![Colour Palette](assets/images/kit-lavis-folk-palette.webp)
 
-
 ## Testing
 
 ### Validator Testing
@@ -73,7 +72,7 @@ Due to project requirements and time restrictions, a number of features were not
 
 ### Manual Debugging
 
-The project was deployed at an early stage to allow for continutal manual debugging throughout the process. The deployment link was shared to four potential users who routinely checked a list of potential areas where problems regularly occur. This list included, but was not limited to:
+The project was deployed at an early stage to allow for continutal manual debugging throughout the process. The deployment link was shared to four potential users who routinely checked a list of potential areas where issues can easily arise. This list included, but was not limited to:
 - Links (internal and external)
 - Navigation bar responsiveness
 - Responsiveness of content areas
@@ -96,6 +95,7 @@ Live deployment link - [deployment](https://kitlavis.github.io/ci-pp1-band-websi
 - The favicon was created using [favicon.io](https://www.favicon.io)
 - Colour palette was created using [coolors.co](https://coolors.co/)
 - Fonts were provided by [Google Fonts](https://fonts.google.com/)
+- All icons were provided by [Font Awesome](https://fontawesome.com/icons)
 
 ### Code
 
