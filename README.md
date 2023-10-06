@@ -42,6 +42,12 @@ Due to project requirements and time restrictions, a number of features were not
 
 ### Manual Debugging
 
+The project was deployed at an early stage to allow for continutal manual debugging throughout the process. The deployment link was shared to four potential users who routinely checked a list of potential areas where problems regularly occur. This list included, but was not limited to:
+- Links (internal and external)
+- Navigation bar responsiveness
+- Responsiveness of content areas
+- Contact form function
+
 ## Deployment
 
 The project was deployed via GitHub Pages. To do this, the following process was followed:
@@ -53,8 +59,6 @@ Live deployment link - [deployment](https://kitlavis.github.io/ci-pp1-band-websi
 
 ## Credits
 
-### Content
-
 ### Media
 
 - All photographs used were taken from stock image provider [pexels.com](https://www.pexels.com)
@@ -62,5 +66,5 @@ Live deployment link - [deployment](https://kitlavis.github.io/ci-pp1-band-websi
 
 ### Code
 
-- The code for the clickable three dot icon on the navigation bar was take from the Code Institute's Love Running walkthrough project.
+- The code for the clickable three dot icon on the navigation bar was taken from the Code Institute's Love Running walkthrough project.
 - The contact form is based off of the 'sign up form' also from the Code Institute's Love Running walkthrough project.
