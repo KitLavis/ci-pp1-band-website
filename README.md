@@ -23,8 +23,12 @@ This project is a site created to promote the new album by fictional English fol
 - Album Advert
   - The advert section allows the user to purchase the album, drawing their attention to the new album with emphasised text and repeat use of the album cover, which should now be a familiar image.
 
+![Screenshot of album advert](assets/images/album-advert-readme.webp)
+
 - Footer
   - The footer is a feature that remains consitent in style and function across all device sizes. It provides links in the form of icons which allow the user to access the three main websites used by the artist as their online presence in 2023; Facbbook, Instagram and Youtube.
+
+![Screenshot of footer](assets/images/footer-readme.webp)
 
 - About Page
   - The about page consists of small blocks of text providing information about the artist to allow the user to relate to the artist further, hopefully solidifying the view of exisiting fans and helping potential new fans gain an idea of who the artist is.
