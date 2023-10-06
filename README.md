@@ -12,6 +12,7 @@ This project is a site created to promote the new album by fictional English fol
   - This is a fully responsive feature allowing the user to navigate easily between all three pages of the website without the need to use the 'back' button.
   - On mobile devices the page names are hidden behind a clickable 'three dots icon' to allow for slightly more breathing space on the smaller screen, whilst on a tablet sized device or larger, the page names are placed in the centre of the viewport, beneath the title of the web page.
 
+![Screenshot of navigation bar on mobile devices](assets/images/mobil-navbar-screenshot.webp)
 ![Screenshot of navigation bar](assets/images/readme-header.webp)
 
 - Landing page image
@@ -24,7 +25,7 @@ This project is a site created to promote the new album by fictional English fol
   - The footer is a feature that remains consitent in style and function across all device sizes. It provides links in the form of icons which allow the user to access the three main websites used by the artist as their online presence in 2023; Facbbook, Instagram and Youtube.
 
 - About Page
-  - The about page consists of small blocks of text along with a number of images to provide the user with more information about the artist.
+  - The about page consists of small blocks of text providing information about the artist to allow the user to relate to the artist further, hopefully solidifying the view of exisiting fans and helping potential new fans gain an idea of who the artist is.
 
 - Contact Form
   - The contact form allows for a message to be sent to the artist. The main use of this feature is for promoters/booking agents to contact regarding availabilities, however it may also be used by fans to send a message directly to the artist.
@@ -36,6 +37,22 @@ Due to project requirements and time restrictions, a number of features were not
   - A page souly for media will be added in future. This will include embedded audio and video, allowing the user to access the artist's music without having to open an external link.
 - Dedicated Events Page
   - Similar to the media page, in future a page will be added with upcoming tour dates and links to purchase tickets for the events.
+
+## Design Notes
+
+### General
+
+- The album cover image is used as the basis of every page of the project in order to keep the design consistent, and so that the image becomes familiar to the user and sticks in their mind.
+- Although it is generally accepted that sans-serif font families are better suited for uses on the web, Noto serif was used as the main font for headers. This is because it looks rather 'old-timey' which compliments the artist and their music.
+
+### Colour
+
+- As the majority of the content is laid on top of the album image, the colour had to be chosen carefully with UX design in mind in order for the user to easily read any information presented to them. Therefore the colour 'whitesmoke' was chosen for any text or icon that overlays the album image.
+- As the colours within the album image itself are rather subdued, the footer colour and the background-colour for the review section had to match this theme. Therefore the shade of grey with a hex value of #3a3a3a was used so that the user isn't suddenly overwhelmed with a wash of colour, and the feel of the site remains consistent throughout.
+- A number of other shades of grey were used throughout the project, which can be seen in the colour palette below.
+
+![Colour Palette](assets/images/kit-lavis-folk-palette.webp)
+
 
 ## Testing
 
