@@ -15,8 +15,10 @@ This project is a site created to promote the new album by fictional English fol
 ![Screenshot of navigation bar on mobile devices](assets/images/mobil-navbar-screenshot.webp)
 ![Screenshot of navigation bar](assets/images/readme-header.webp)
 
-- Landing page image
+- Landing page
   - The image chosen for the landing page is the cover of the new album that is being promoted in order to instantly familarise the user with said image. This is overlaid with links to the most popular streaming platforms and a brief description of the artist for potential new fans.
+
+![Screenshot of landing page](assets/images/landing-page-readme.webp)
 
 - Album Advert
   - The advert section allows the user to purchase the album, drawing their attention to the new album with emphasised text and repeat use of the album cover, which should now be a familiar image.
@@ -80,10 +82,12 @@ Live deployment link - [deployment](https://kitlavis.github.io/ci-pp1-band-websi
 
 ## Credits
 
-### Media
+### Media and Design
 
 - All photographs used were taken from stock image provider [pexels.com](https://www.pexels.com)
 - The favicon was created using [favicon.io](https://www.favicon.io)
+- Colour palette was created using [coolors.co](https://coolors.co/)
+- Fonts were provided by [Google Fonts](https://fonts.google.com/)
 
 ### Code
 
