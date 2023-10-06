@@ -12,6 +12,8 @@ This project is a site created to promote the new album by fictional English fol
   - This is a fully responsive feature allowing the user to navigate easily between all three pages of the website without the need to use the 'back' button.
   - On mobile devices the page names are hidden behind a clickable 'three dots icon' to allow for slightly more breathing space on the smaller screen, whilst on a tablet sized device or larger, the page names are placed in the centre of the viewport, beneath the title of the web page.
 
+![Screenshot of navigation bar](assets/images/readme-header.webp)
+
 - Landing page image
   - The image chosen for the landing page is the cover of the new album that is being promoted in order to instantly familarise the user with said image. This is overlaid with links to the most popular streaming platforms and a brief description of the artist for potential new fans.
 
