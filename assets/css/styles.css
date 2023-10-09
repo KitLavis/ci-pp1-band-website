@@ -297,6 +297,13 @@ main {
     text-transform: none;
 }
 
+.about-image > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+} 
+
 #top-margin {
     background: none;
     height: 130px;
@@ -499,6 +506,11 @@ footer {
 
     #about-div > #life-in-a-band {
         text-align: right;
+        margin-left: auto;
+    }
+
+    #about-div #about-image-right {
+        margin-right: 1em;
         margin-left: auto;
     }
 
