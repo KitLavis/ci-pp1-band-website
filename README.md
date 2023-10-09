@@ -35,8 +35,6 @@ About page
 Contact page
 ![Contact page wireframe](docs/images/contact-wireframe.webp)
 
-### User Stories
-
 ## Features
 
 ### Existing Features
@@ -80,6 +78,14 @@ Due to project requirements and time restrictions, a number of features were not
   - A page souly for media will be added in future. This will include embedded audio and video, allowing the user to access the artist's music without having to open an external link.
 - Dedicated Events Page
   - Similar to the media page, in future a page will be added with upcoming tour dates and links to purchase tickets for the events.
+
+### Development
+
+Due to design consistentcy, future development of the project is extremely simple.
+- The background for all pages can be altered by changing one single image. This could be the latest release from the artist, or an image from the latest photoshoot.
+- The advert on the landing page can also be easily updated to the latest output from the artist.
+- When creating the dedicated media and events pages, the basic HTML that is used across all three existing pages can be pasted into the new pages in order to create the basis to work from.
+- All sections within the stylesheet are labelled with clear comments describing what the following CSS does. This allows developers that may have never seen the code before to edit and update the code with ease
 
 ## Design Notes
 
@@ -131,6 +137,7 @@ Live deployment link - [deployment](https://kitlavis.github.io/kit-lavis-folk-gu
 - Colour palette was created using [coolors.co](https://coolors.co/)
 - Fonts were provided by [Google Fonts](https://fonts.google.com/)
 - All icons were provided by [Font Awesome](https://fontawesome.com/icons)
+- Wireframes were created using [Balsamiq](https://balsamiq.com/)
 
 ### Code
 
