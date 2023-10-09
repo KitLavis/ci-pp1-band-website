@@ -85,7 +85,7 @@ Due to design consistentcy, future development of the project is extremely simpl
 - The background for all pages can be altered by changing one single image. This could be the latest release from the artist, or an image from the latest photoshoot.
 - The advert on the landing page can also be easily updated to the latest output from the artist.
 - When creating the dedicated media and events pages, the basic HTML that is used across all three existing pages can be pasted into the new pages in order to create the basis to work from.
-- All sections within the stylesheet are labelled with clear comments describing what the following CSS does. This allows developers that may have never seen the code before to edit and update the code with ease
+- All sections within the stylesheet are labelled with clear comments describing what the following CSS does. This allows developers that may have never seen the code before to edit and update the code with ease.
 
 ## Design Notes
 
@@ -103,6 +103,13 @@ Due to design consistentcy, future development of the project is extremely simpl
 - A number of other shades of grey were used throughout the project, which can be seen in the colour palette below.
 
 ![Colour Palette](docs/images/kit-lavis-folk-palette.webp)
+
+## Technologies
+
+- The basic content of the project was created using HTML.
+- This content was then styled using CSS.
+- Codeanywhere was the IDE utilised for the project.
+- The Git repository was stored on GitHub.
 
 ## Testing
 
