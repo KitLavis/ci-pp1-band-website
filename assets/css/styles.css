@@ -97,7 +97,7 @@ main {
 }
 
 #bg-img-div {
-    background: url('../images/bg-img1-wide-shrunk.webp') no-repeat center/cover;
+    background: url('../images/background-wide-shrunk.webp') no-repeat center/cover;
     min-height: 100vh;
 }
 
@@ -158,7 +158,7 @@ main {
 
 /* new album advert */
 #advert-section {
-    background: url('../images/bg-img1-blur.webp') no-repeat center/cover;
+    background: url('../images/background-blur.webp') no-repeat center/cover;
     position: relative;
     z-index: 99;
 }
@@ -274,7 +274,7 @@ main {
 }
 
 #bg-img-div-about {
-    background: url('../images/bg-img1-wide-shrunk.webp') no-repeat center/cover;
+    background: url('../images/background-wide-shrunk.webp') no-repeat center/cover;
     min-height: 100vh;
     background-attachment: fixed;
 }
@@ -545,7 +545,7 @@ footer {
 
     /* adds blurred background image to new combined advert/reviews section */
     #larger-screen-bg {
-        background: url('../images/bg-img1-blur.webp') no-repeat center/cover;
+        background: url('../images/background-blur.webp') no-repeat center/cover;
         width: 100vw;
         z-index: 99;
     }
