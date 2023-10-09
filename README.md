@@ -5,6 +5,38 @@ This project is a site created to promote the new album by fictional English fol
 ![Am I Responsive Mockup](docs/images/kit-lavis-am-i-responsive-readme.webp)
 [Live Deployment](https://kitlavis.github.io/kit-lavis-folk-guitarist/)
 
+## Planning
+
+During the planning phase of the project, a number of questions were adressed in order to identify who the project is for, why the project is necessary/the aims of the project, and how those aims will be met.
+
+- Who is the project for?
+  - The project is for exisiting fans of the artist, and potential new fans, who are already familiar with the genre.
+- The aims of the project:
+  - To provide a base to access information about the artist and their output.
+  - To promote the new album.
+  - To provide a place where people in the industry and fans can contact the artist.
+- How will the aims be met?
+  - Potential new fans will be inticed by using design that will feel familiar for fans of the genre.
+  - Information about the artist will be provided in clear concise text, with appropriate images to match said information.
+  - Links to the artist's output on the most popular streaming platforms will be included on the landing page.
+  - Thew new album will be presented as the basis across the whole site, with a dedicated section on the landing page including a brief description and a link purchase the album.
+  - A dedicated contact page with a clear and easy to use form will be created.
+
+### Wireframing
+
+With this information gathered, wireframes were then created to gain a basic visual representation of the project across a number of device sizes.
+
+Landing page
+![Landing page wireframe](docs/images/landing-wireframe.webp)
+
+About page
+![About page wireframe](docs/images/about-wireframe.webp)
+
+Contact page
+![Contact page wireframe](docs/images/contact-wireframe.webp)
+
+### User Stories
+
 ## Features
 
 ### Existing Features
