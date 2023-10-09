@@ -58,6 +58,8 @@ Due to project requirements and time restrictions, a number of features were not
 
 ### Colour
 
+![Album Cover Colour Palette](docs/images/album-cover-palette.webp)
+
 - As the majority of the content is laid on top of the album image, the colour had to be chosen carefully with UX design in mind in order for the user to easily read any information presented to them. Therefore the colour 'whitesmoke' was chosen for any text or icon that overlays the album image.
 - As the colours within the album image itself are rather subdued, the footer colour and the background-colour for the review section had to match this theme. Therefore the shade of grey with a hex value of #3a3a3a was used so that the user isn't suddenly overwhelmed with a wash of colour, and the feel of the site remains consistent throughout.
 - A number of other shades of grey were used throughout the project, which can be seen in the colour palette below.
