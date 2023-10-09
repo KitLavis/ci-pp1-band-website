@@ -2,7 +2,7 @@
 
 This project is a site created to promote the new album by fictional English folk guitarist Kit Lavis. The website is targeted mainly towards exisiting fans, however the imagery and design has been tailored in order to intice fans of the genre, who may not already be familarised with his music.
 
-![Am I Responsive Mockup](assets/images/readme/kit-lavis-am-i-responsive-readme.webp)
+![Am I Responsive Mockup](docs/images/kit-lavis-am-i-responsive-readme.webp)
 
 ## Features
 
@@ -12,33 +12,33 @@ This project is a site created to promote the new album by fictional English fol
   - This is a fully responsive feature allowing the user to navigate easily between all three pages of the website without the need to use the 'back' button.
   - On mobile devices the page names are hidden behind a clickable 'three dots icon' to allow for slightly more breathing space on the smaller screen, whilst on a tablet sized device or larger, the page names are placed in the centre of the viewport, beneath the title of the web page.
 
-![Screenshot of navigation bar on mobile devices](assets/images/readme/mobil-navbar-screenshot.webp)
-![Screenshot of navigation bar](assets/images/readme/readme-header.webp)
+![Screenshot of navigation bar on mobile devices](docs/images/mobil-navbar-screenshot.webp)
+![Screenshot of navigation bar](docs/images/readme-header.webp)
 
 - Landing page
   - The image chosen for the landing page is the cover of the new album that is being promoted in order to instantly familarise the user with said image. This is overlaid with links to the most popular streaming platforms and a brief description of the artist for potential new fans.
 
-![Screenshot of landing page](assets/images/readme/landing-page-readme.webp)
+![Screenshot of landing page](docs/images/landing-page-readme.webp)
 
 - Album Advert
   - The advert section allows the user to purchase the album, drawing their attention to the new album with emphasised text and repeat use of the album cover, which should now be a familiar image.
 
-![Screenshot of album advert](assets/images/readme/album-advert-readme.webp)
+![Screenshot of album advert](docs/images/album-advert-readme.webp)
 
 - Footer
   - The footer is a feature that remains consitent in style and function across all device sizes. It provides links in the form of icons which allow the user to access the three main websites used by the artist as their online presence in 2023; Facbbook, Instagram and Youtube.
 
-![Screenshot of footer](assets/images/readme/footer-readme.webp)
+![Screenshot of footer](docs/images/footer-readme.webp)
 
 - About Page
   - The about page consists of small blocks of text providing information about the artist to allow the user to relate to the artist further, hopefully solidifying the view of exisiting fans and helping potential new fans gain an idea of who the artist is.
 
-![Screenshot of about page](assets/images/readme/about-page-readme.webp)
+![Screenshot of about page](docs/images/about-page-readme.webp)
 
 - Contact Form
   - The contact form allows for a message to be sent to the artist. The main use of this feature is for promoters/booking agents to contact regarding availabilities, however it may also be used by fans to send a message directly to the artist.
 
-![Screenshot of contact form](assets/images/readme/contact-form-readme.webp)
+![Screenshot of contact form](docs/images/contact-form-readme.webp)
 
 ### Features for Future Development
 
@@ -61,7 +61,7 @@ Due to project requirements and time restrictions, a number of features were not
 - As the colours within the album image itself are rather subdued, the footer colour and the background-colour for the review section had to match this theme. Therefore the shade of grey with a hex value of #3a3a3a was used so that the user isn't suddenly overwhelmed with a wash of colour, and the feel of the site remains consistent throughout.
 - A number of other shades of grey were used throughout the project, which can be seen in the colour palette below.
 
-![Colour Palette](assets/images/readme/kit-lavis-folk-palette.webp)
+![Colour Palette](docs/images/kit-lavis-folk-palette.webp)
 
 ## Testing
 
