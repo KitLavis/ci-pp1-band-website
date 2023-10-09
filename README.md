@@ -3,6 +3,7 @@
 This project is a site created to promote the new album by fictional English folk guitarist Kit Lavis. The website is targeted mainly towards exisiting fans, however the imagery and design has been tailored in order to intice fans of the genre, who may not already be familarised with his music.
 
 ![Am I Responsive Mockup](docs/images/kit-lavis-am-i-responsive-readme.webp)
+[Live Deployment](https://kitlavis.github.io/kit-lavis-folk-guitarist/)
 
 ## Features
 
@@ -67,8 +68,8 @@ Due to project requirements and time restrictions, a number of features were not
 
 ### Validator Testing
 
-- The HTML was validated using the W3C validator. No errors and no warnings were reported.
-- The CSS was validated using the W3C CSS validator. No errors were found and one warning regarding imported style sheets was reported. A link to the result can be found [here](http://jigsaw.w3.org/css-validator/validator$link)
+- The HTML was validated using the W3C validator. No errors and no warnings were reported. A link to the result can be found [here](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkitlavis.github.io%2Fkit-lavis-folk-guitarist%2F)
+- The CSS was validated using the W3C CSS validator. No errors were found and one warning regarding imported style sheets was reported. A link to the result can be found [here](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fkitlavis.github.io%2Fkit-lavis-folk-guitarist%2F&usermedium=all&vextwarning=&warning=1)
 
 ### Manual Debugging
 
@@ -85,7 +86,7 @@ The project was deployed via GitHub Pages. To do this, the following process was
 - Select the Main Branch from the source section drop-down menu and click save.
 - Once succesfully deployed, the deployment can be accessed from the Deployment Section in the right-hand column of the code page of the GitHub repository.
 
-Live deployment link - [deployment](https://kitlavis.github.io/ci-pp1-band-website/)
+Live deployment link - [deployment](https://kitlavis.github.io/kit-lavis-folk-guitarist/)
 
 ## Credits
 
@@ -101,3 +102,4 @@ Live deployment link - [deployment](https://kitlavis.github.io/ci-pp1-band-websi
 
 - The code for the clickable three dot icon on the navigation bar was taken from the Code Institute's Love Running walkthrough project.
 - The contact form is based off of the 'sign up form' also from the Code Institute's Love Running walkthrough project.
+  - [Love Running GitHub Repo](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode)
