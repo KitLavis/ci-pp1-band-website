@@ -62,9 +62,9 @@ Contact page
 ![Screenshot of footer](docs/images/footer-readme.webp)
 
 - About Page
-  - The about page consists of small blocks of text providing information about the artist to allow the user to relate to the artist further, hopefully solidifying the view of exisiting fans and helping potential new fans gain an idea of who the artist is.
+  - The about page consists of small blocks of text providing information about the artist to allow the user to relate to the artist further, hopefully solidifying the view of exisiting fans and helping potential new fans gain an idea of who the artist is. So that the page isn't too text heavy, an image is placed next to each body of text.
 
-![Screenshot of about page](docs/images/about-page-readme.webp)
+![Screenshot of about page](docs/images/about-page-images-readme.webp)
 
 - Contact Form
   - The contact form allows for a message to be sent to the artist. The main use of this feature is for promoters/booking agents to contact regarding availabilities, however it may also be used by fans to send a message directly to the artist.
