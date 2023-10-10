@@ -1,6 +1,6 @@
 # Kit Lavis
 
-This project is a site created to promote the new album by fictional English folk guitarist Kit Lavis. The website is targeted mainly towards exisiting fans, however the imagery and design has been tailored in order to intice fans of the genre, who may not already be familarised with his music.
+This project is a site created for fictional English folk guitarist Kit Lavis as a base for their online presence, and to promote their new album. The website is targeted mainly towards exisiting fans, however the imagery and design have been tailored in order to intice fans of the genre, who may not already be familarised with his music.
 
 ![Am I Responsive Mockup](docs/images/kit-lavis-am-i-responsive-readme.webp)
 [Live Deployment](https://kitlavis.github.io/kit-lavis-folk-guitarist/)
@@ -14,12 +14,12 @@ During the planning phase of the project, a number of questions were adressed in
 - The aims of the project:
   - To provide a base to access information about the artist and their output.
   - To promote the new album.
-  - To provide a place where people in the industry and fans can contact the artist.
+  - To provide a place where people in the industry and fans can contact with the artist.
 - How will the aims be met?
   - Potential new fans will be inticed by using design that will feel familiar for fans of the genre.
   - Information about the artist will be provided in clear concise text, with appropriate images to match said information.
   - Links to the artist's output on the most popular streaming platforms will be included on the landing page.
-  - Thew new album will be presented as the basis across the whole site, with a dedicated section on the landing page including a brief description and a link purchase the album.
+  - Thew new album will be presented as the basis across the whole site, with a dedicated section on the landing page including a brief description and a link to purchase the album.
   - A dedicated contact page with a clear and easy to use form will be created.
 
 ### Wireframing
@@ -41,13 +41,13 @@ Contact page
 
 - Navigation Bar
   - This is a fully responsive feature allowing the user to navigate easily between all three pages of the website without the need to use the 'back' button.
-  - On mobile devices the page names are hidden behind a clickable 'three dots icon' to allow for slightly more breathing space on the smaller screen, whilst on a tablet sized device or larger, the page names are placed in the centre of the viewport, beneath the title of the web page.
+  - On mobile devices the page names are hidden behind a clickable icon to allow for slightly more breathing space on the smaller screen, whilst on a tablet sized device or larger, the page names are placed in the centre of the viewport, beneath the title of the web page.
 
 ![Screenshot of navigation bar on mobile devices](docs/images/mobil-navbar-screenshot.webp)
 ![Screenshot of navigation bar](docs/images/readme-header.webp)
 
 - Landing page
-  - The image chosen for the landing page is the cover of the new album that is being promoted in order to instantly familarise the user with said image. This is overlaid with links to the most popular streaming platforms and a brief description of the artist for potential new fans.
+  - The image chosen for the landing page is the cover of the new album that is being promoted in order to instantly familarise the user with said image. This is overlaid with links to the most popular streaming platforms and a brief three word description of the artist for potential new fans.
 
 ![Screenshot of landing page](docs/images/landing-page-readme.webp)
 
@@ -57,7 +57,7 @@ Contact page
 ![Screenshot of album advert](docs/images/album-advert-readme.webp)
 
 - Footer
-  - The footer is a feature that remains consitent in style and function across all device sizes. It provides links in the form of icons which allow the user to access the three main websites used by the artist as their online presence in 2023; Facbbook, Instagram and Youtube.
+  - The footer is a feature that remains consitent in style and function across all device sizes. It provides links in the form of icons which allow the user to access the three main websites used by the artist as their online presence in 2023: Facbbook, Instagram and Youtube.
 
 ![Screenshot of footer](docs/images/footer-readme.webp)
 
@@ -73,7 +73,7 @@ Contact page
 
 ### Features for Future Development
 
-Due to project requirements and time restrictions, a number of features were not included.
+Due to project requirements and time restrictions, a number of features were not included:
 - Dedicated Media Page
   - A page souly for media will be added in future. This will include embedded audio and video, allowing the user to access the artist's music without having to open an external link.
 - Dedicated Events Page
@@ -84,14 +84,14 @@ Due to project requirements and time restrictions, a number of features were not
 Due to design consistentcy, future development of the project is extremely simple.
 - The background for all pages can be altered by changing one single image. This could be the latest release from the artist, or an image from the latest photoshoot.
 - The advert on the landing page can also be easily updated to the latest output from the artist.
-- When creating the dedicated media and events pages, the basic HTML that is used across all three existing pages can be pasted into the new pages in order to create the basis to work from.
-- All sections within the stylesheet are labelled with clear comments describing what the following CSS does. This allows developers that may have never seen the code before to edit and update the code with ease.
+- When creating the dedicated media and events pages, the basic HTML that is used across all three existing pages can be pasted into the new pages in order to create a base to work from.
+- All sections within the stylesheet are labelled with clear comments describing the function of the code that follows. This allows developers that may have never seen the code before to edit and update the code with ease.
 
 ## Design Notes
 
 ### General
 
-- The album cover image is used as the basis of every page of the project in order to keep the design consistent, and so that the image becomes familiar to the user and sticks in their mind.
+- The album cover image is used as the basis of every page of the project in order to keep the design consistent, and so that the image becomes familiar to the user.
 - Although it is generally accepted that sans-serif font families are better suited for uses on the web, Noto serif was used as the main font for headers. This is because it looks rather 'old-timey' which compliments the artist and their music.
 
 ### Colour
@@ -116,11 +116,11 @@ Due to design consistentcy, future development of the project is extremely simpl
 ### Validator Testing
 
 - The HTML was validated using the W3C validator. No errors and no warnings were reported. A link to the result can be found [here](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkitlavis.github.io%2Fkit-lavis-folk-guitarist%2F)
-- The CSS was validated using the W3C CSS validator. No errors were found and one warning regarding imported style sheets was reported. A link to the result can be found [here](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fkitlavis.github.io%2Fkit-lavis-folk-guitarist%2F&usermedium=all&vextwarning=&warning=1)
+- The CSS was validated using the W3C CSS validator. No errors and no warnings were reported. A link to the result can be found [here](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fkitlavis.github.io%2Fkit-lavis-folk-guitarist%2F&usermedium=all&vextwarning=&warning=1)
 
 ### Manual Debugging
 
-The project was deployed at an early stage to allow for continutal manual debugging throughout the process. The deployment link was shared to four potential users who routinely checked a list of potential areas where issues can easily arise. This list included, but was not limited to:
+The project was deployed at an early stage to allow for continutal manual debugging throughout the process. The deployment link was shared to four potential users who routinely checked a list of areas where issues can easily arise. This list included, but was not limited to:
 - Links (internal and external)
 - Navigation bar responsiveness
 - Responsiveness of content areas
