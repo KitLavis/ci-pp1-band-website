@@ -2,7 +2,7 @@
 
 This project is a site created for fictional English folk guitarist Kit Lavis as a base for their online presence, and to promote their new album. The website is targeted mainly towards exisiting fans, however the imagery and design have been tailored in order to intice fans of the genre, who may not already be familarised with his music.
 
-![Am I Responsive Mockup](docs/images/kit-lavis-am-i-responsive-readme.webp)
+![Am I Responsive Mockup](docs/images/am-i-responsive-new.webp)
 [Live Deployment](https://kitlavis.github.io/kit-lavis-folk-guitarist/)
 
 ## Planning
@@ -145,6 +145,7 @@ Live deployment link - [deployment](https://kitlavis.github.io/kit-lavis-folk-gu
 - Fonts were provided by [Google Fonts](https://fonts.google.com/)
 - All icons were provided by [Font Awesome](https://fontawesome.com/icons)
 - Wireframes were created using [Balsamiq](https://balsamiq.com/)
+- The opening image at the top of this document was created using [Am I Responsive](https://ui.dev/amiresponsive)
 
 ### Code
 
