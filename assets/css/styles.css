@@ -172,8 +172,7 @@ main {
 
 #advert p {
     font-size: 80%;
-    font-family: 'Noto Serif NP Hmong',
-        serif;
+    font-family: 'Noto Serif NP Hmong', serif;
     text-transform: none;
     margin: 1em;
 }
