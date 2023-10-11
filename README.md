@@ -117,6 +117,8 @@ Due to design consistentcy, future development of the project is extremely simpl
 
 - The HTML was validated using the W3C validator. No errors and no warnings were reported. A link to the result can be found [here](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkitlavis.github.io%2Fkit-lavis-folk-guitarist%2F)
 - The CSS was validated using the W3C CSS validator. No errors and no warnings were reported. A link to the result can be found [here](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fkitlavis.github.io%2Fkit-lavis-folk-guitarist%2F&usermedium=all&vextwarning=&warning=1)
+- A lightouse test was also carried out to confirm that the fonts and colours were legible and accesible.
+![Lighthouse test](docs/images/lighthouse-test.webp)
 
 ### Manual Debugging
 
